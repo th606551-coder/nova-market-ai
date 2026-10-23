@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071426">
+  <meta name="description" content="NOVA MARKET AI — Talk to the Market. Phase 1 floating assistant UI.">
+  <title>NOVA MARKET AI</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="landing">
+    <nav class="topbar">
+      <a class="brand" href="./" aria-label="NOVA MARKET AI home">
+        <span class="brand-mark">N</span><span>NOVA <b>MARKET AI</b></span>
+      </a>
+      <span class="phase-pill"><i></i> PHASE 1 · UI PREVIEW</span>
+    </nav>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">YOUR AI MARKET COMPANION</p>
+        <h1>Talk to the <span>Market.</span></h1>
+        <p class="lead">A floating AI assistant foundation for market research, voice interaction, and explainable analysis.</p>
+        <div class="hero-actions">
+          <button class="primary-btn" id="openAssistant">Launch Assistant <span>↗</span></button>
+          <a class="secondary-btn" href="#setup">Setup guide</a>
+        </div>
+        <p class="notice"><span class="notice-dot"></span> Auto-trading is disabled. Live market data is not connected in Phase 1.</p>
+      </div>
+      <div class="hero-visual" aria-label="NOVA robot icon illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="robot">
+          <div class="robot-antenna"></div>
+          <div class="robot-ear left"></div><div class="robot-ear right"></div>
+          <div class="robot-face"><div class="robot-n">N</div><div class="robot-eyes"><i></i><i></i></div><div class="robot-mouth"></div></div>
+        </div>
+        <div class="visual-label"><span class="live-dot"></span> NOVA CORE <small>UI PREVIEW</small></div>
+      </div>
+    </section>
+    <section class="feature-grid" aria-label="Phase 1 features">
+      <article class="feature-card"><span class="feature-icon">◉</span><h2>Floating interface</h2><p>Draggable panel with minimize and close controls.</p></article>
+      <article class="feature-card"><span class="feature-icon">⌁</span><h2>Voice-ready</h2><p>Uses browser speech features when supported, with text fallback.</p></article>
+      <article class="feature-card"><span class="feature-icon">⌘</span><h2>Bookmark launcher</h2><p>Load the hosted assistant on compatible webpages.</p></article>
+    </section>
+    <section id="setup" class="setup-section">
+      <p class="eyebrow">GET STARTED</p><h2>Build it in verified phases.</h2>
+      <p>Upload this folder to a GitHub repository, enable GitHub Pages, then replace the placeholder URL in the bookmarklet instructions with your published URL.</p>
+      <ol><li>Upload the project files to GitHub.</li><li>Enable Pages from the repository's Settings.</li><li>Open the published site and test the assistant.</li><li>Set up the bookmarklet using the exact hosted URL.</li></ol>
+    </section>
+    <footer><span class="brand-mark mini">N</span><span>© NOVA MARKET AI</span><span class="footer-status">PHASE 1 · NO LIVE DATA</span></footer>
+  </main>
+  <script src="./js/floating-ui.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

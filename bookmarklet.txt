@@ -1,0 +1,14 @@
+NOVA MARKET AI — BOOKMARKLET SETUP
+
+After publishing the repository with GitHub Pages, replace USERNAME below with your GitHub username. If your repository name differs, update the path too.
+
+Bookmark URL (paste as the bookmark's URL/address):
+javascript:(()=>{const u="https://USERNAME.github.io/nova-market-ai/js/floating-ui.js";if(window.__NOVA_MARKET_AI_PHASE1__){window.__NOVA_MARKET_AI_PHASE1__.toggle();return}const s=document.createElement("script");s.src=u;s.async=true;s.onload=()=>{};s.onerror=()=>alert("NOVA could not load. Check the GitHub Pages URL and this site's security restrictions.");document.documentElement.appendChild(s)})();
+
+IMPORTANT:
+- Replace USERNAME and verify the published URL before saving.
+- Some browsers remove javascript: URLs when a bookmark is saved; some Android browsers do not reliably run bookmarklets. Test with a simple page first.
+- Some websites block injected scripts through Content Security Policy. This cannot be bypassed by this project.
+- The bookmarklet requires internet access to load the hosted JavaScript.
+- This floating panel exists only inside the current webpage. It does not float over other Android apps or survive closing the page.
+- Never place AI or private market-data API keys in this bookmarklet.
